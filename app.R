@@ -2,8 +2,6 @@
 
 source('init.R',local = T)
 
-# library(ff)
-# library(tabplot)
 # Server ------------------------------------------------------------------
 
 server <- function(input, output,session) {
