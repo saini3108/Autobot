@@ -2,7 +2,6 @@
 
 source('init.R',local = T)
 
-# library(ff)
 # library(tabplot)
 # Server ------------------------------------------------------------------
 
