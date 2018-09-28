@@ -42,10 +42,6 @@ require(Cubist)
 require(testthat)
 require(corrplot)
 
-data(meuse)
-
-dmnds <- diamonds#[sample(1:nrow(diamonds),1e3),]
-
 titanic <- read.csv('train.csv')
 
 #datasets <- list(NULL)
@@ -54,11 +50,8 @@ datasets <- list(
   'iris'=iris,
   'Titanic'=titanic,
   'cars'=mtcars,
-  'meuse'=meuse,
-  'diamonds'=data.frame(dmnds),
   'Boston'= Boston
 )
-
 
 
 tuneParams <- list(
